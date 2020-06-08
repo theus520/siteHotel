@@ -20,7 +20,7 @@ a{
    margin-top: 80px;
     position: absolute;
     width: 100%;
-   
+       
 }
 img{
     width: 40px;
@@ -54,9 +54,44 @@ input[type="checkbox"]:checked ~ nav {
 .hidden{
     display: none;
 }
+.hidde{
+    display: block;
+}
 .input{
     display: inline;
 }
+
+.button{
+    
+    width: 70%;
+    height: 20px;
+    padding: 14px 5px;
+    margin: 8px 10px;
+  
+    text-align: center;
+   
+}
+form input{
+    width: 70%;
+    height: 20px;
+    padding: 14px 5px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+}
+.fixed {
+     top:  4px;;
+     right: 150px;
+    	height: 180px;
+	width: 300px;
+    	position: fixed;
+    bottom: 550px;
+    	right: 29px;
+     } 
+
+
+
+
+
 
 
 

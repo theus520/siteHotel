@@ -1,29 +1,37 @@
 .header {
-    background-color: #f1f1f1;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-  }
-.sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    
-    overflow-x: hidden;
-  }
-  .content {
-    margin-left: 200px;
-    padding-left: 20px;
-  }
-  #in_pessoas{
-      width: 80px;
-      height: 25px;
 
-  }
-  .in_date{
-      width: 120px;
-      height: 25px;
-  }
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  overflow-x: hidden;
+}
+.content {
+ background-color: black;
+  margin-left: 300px;
+  padding-left: 20px;
+}
+
+.in_date{
+  width: 125px;
+  height: 25px;
+}
+.upda{
+  width: 70px;
+  height: 25px;
+}
+#check{
+  margin-left: 250px;
+}
+.mapa{
+  margin-top: 50px;
+}

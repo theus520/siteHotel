@@ -1,4 +1,6 @@
 *{
+    overflow-y: hidden;
+    overflow: hidden;
     padding: 0px;
     margin: 0px;
 }
@@ -19,7 +21,7 @@ a{
     width: 100%;
   
 }
-img{
+#risco{
     width: 60px;
     margin-left: 20px;
   
@@ -75,10 +77,91 @@ form input{
     margin: 8px 25px;
     box-sizing: border-box;
 }
-#fixed{
-    margin-top: 70px;
-}
-  
+
+
+
+
+
 
    
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 5px;
+    color: white;
 
+
+}
+
+#ul{
+    list-style: none;
+   margin-top: 80px;
+    position: absolute;
+    width: 100%;
+  
+}
+#risco{
+    width: 60px;
+    margin-left: 20px;
+  
+}
+input[type="checkbox"] {
+ display: none;
+}
+nav{
+    width: 300px;
+    height: 100%;
+    left: -300px;
+    position: absolute;
+    transition: all .5s;
+    background-color: rgba(16, 16,16,.5);
+}
+a:hover{
+    
+     background-color: rgb(240, 244, 245);
+     color: black;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+input[type="checkbox"]:checked ~ nav {
+  
+    transform: translateX(300px);
+   }
+.hidden{
+    display: none;
+}
+.hidde{
+    display: block;
+}
+.input{
+    display: inline;
+}
+.menuButton{
+    
+    width: 75%;
+    height: 30px;
+    padding: 14px 10px;
+    margin: 8px 25px;
+  
+    text-align: center;
+   
+}
+form input{
+    width: 75%;
+    height: 30px;
+    padding: 14px 10px;
+    margin: 8px 25px;
+    box-sizing: border-box;
+}
+iframe{
+    margin-top: 109px;
+    height: 450px;
+}

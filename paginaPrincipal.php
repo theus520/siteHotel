@@ -32,21 +32,20 @@ function myFunction() {
                  document.getElementById("demo").innerHTML =   a ;
 }
 </script>
-</div>
+</div >
         </form>
 
-        
-        
-        
-        <div class="sidenav">
+ <div class="sidenav">
             <input type="checkbox" id="chec"/>
          <label for="chec">
-             <img src="imagens/download.png"/>
+             <img id="risco"src="imagens/download.png"/>
          </label>
-        </form>
-         <nav >
+          
+         
+
+          
+        <nav >
             <div id="ul">
-    
                 <input type="button" class="menuButton" onclick="acao('cadast','foto','inf')" value="Cadastro Usuário"/>
                 <div>
       <form name="form" id="cadast" class="hidden" onSubmit="return validacao();" action="dados.php" method="$_GET">
@@ -68,8 +67,8 @@ function myFunction() {
                  <input name="lograduoro"  type="text" name="logradouro"  placeholder="               Logradouro" id="rua"/>
             
                  <input name="numero"  type="number" name="numero" placeholder="               Número" />
-
-                 <input  class="menuButton"type="submit" name="enviar" />
+                
+                 <input class="menuButton"type="submit" name="enviar" />
                 </form>
        <div id="foto"  class="hidde">
         <input type="button" class="menuButton" onclick=" acaoFotos('inf','foto','cadast')" value="Fotos"/>
@@ -79,24 +78,22 @@ function myFunction() {
                 <div>
          </div>
       </div> 
-</nav>
-
-    <div id="fixed">
-    <iframe  
+      
+    </nav>
+    <iframe 
     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCSO45Jd8GCAAN9KoKQAbWL4G-GWifMr1Y &q=Pousada Dunas do Jalapão" allowfullscreen>
- 
- </iframe> 
+    
+    </iframe> 
+
 </div>
-        </div>
-        <div class="content">
-            <h2 style="text-align: center;margin-top: 200px;">CSS Template</h2>
-            
-            <p id="pagina"></p>
-            <script>
-                document.getElementById("pagina").innerHTML = outraFuncao();
-            </script>
-          </div>
-          
+  
+<div class="content">
+    <div>
+         <img id="fot" src="imagens/dunas.jpg"/>
+</div>
+      
+    </div>
+               
         
      </body>
 </html>
